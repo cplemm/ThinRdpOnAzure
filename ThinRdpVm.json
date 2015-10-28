@@ -43,7 +43,6 @@
 		"frontEndIPConfigID": "[concat(variables('lbID'),'/frontendIPConfigurations/loadBalancerFrontEnd')]"
 	},
 	"resources": [
-	// StorageAccount
 	{
 		"apiVersion": "2015-05-01-preview",
 		"type": "Microsoft.Storage/storageAccounts",
@@ -56,7 +55,6 @@
 			"accountType": "[variables('storageAccountType')]"
 		}
 	},
-	//VirtualNetwork
 	{
 		"apiVersion": "2015-05-01-preview",
 		"type": "Microsoft.Network/virtualNetworks",
@@ -77,7 +75,6 @@
 			}]
 		}
 	},
-	//NIC
 	{
 		"apiVersion": "2015-05-01-preview",
 		"type": "Microsoft.Network/networkInterfaces",
@@ -111,7 +108,6 @@
 			}]
 		}
 	},
-	//LoadBalancer
 	{
 		"apiVersion": "2015-05-01-preview",
 		"type": "Microsoft.Network/loadBalancers",
@@ -162,7 +158,6 @@
 			}]
 		}
 	},
-	//PublicIP
 	{
 		"name": "[variables('publicIpName')]",
 		"type": "Microsoft.Network/publicIPAddresses",
@@ -179,7 +174,6 @@
 			}
 		}
 	},
-	//VirtualMachine
 	{
 		"apiVersion": "2015-05-01-preview",
 		"type": "Microsoft.Compute/virtualMachines",
