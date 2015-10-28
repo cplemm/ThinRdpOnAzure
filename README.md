@@ -1,5 +1,5 @@
 Demonstrates how to enable ThinRDP access for an Azure VM
 
-<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fcplemm%2FThinRdpOnAzure%2Fmaster%2Fazuredeploy.json" target="_blank">
+<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fcplemm%2FThinRdpOnAzure%2Fmaster%2FThinRdpVm.json" target="_blank">
     <img src="http://azuredeploy.net/deploybutton.png"/>
 </a>
