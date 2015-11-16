@@ -9,7 +9,12 @@
 			"type": "securestring"
 		},
 		"location": {
-			"type": "string"
+			"type": "string",
+			"allowedValues": [ 
+			         "East US", 
+			         "Southeast Asia", 
+			         "West Europe" 
+			       ] 
 		},
 		"newStorageAccountName": {
 			"type": "string"
