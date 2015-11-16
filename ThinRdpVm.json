@@ -23,10 +23,12 @@
 			"type": "string"
 		},
 		"extensionLocation": {
-			"type": "string"
+			"type": "string",
+			"defaultValue": "https://thinrdpx.blob.core.windows.net/extension"
 		},
 		"extensionScript": {
-			"type": "string"
+			"type": "string",
+			"defaultValue": "SetupThinRdp.ps1"
 		}
 	},
 	"variables": {
